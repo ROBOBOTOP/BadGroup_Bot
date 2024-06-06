@@ -10,7 +10,7 @@
       "BAD",
       "Anime"
     ],
-    "repository": "https://github.com/Badhacker98/BadGroup_Bot",
+    "repository": "https://github.com/jassabhi/BadGroup_Bot",
     "success_url": "https://t.me/BAD_BBY_02_BOT",
     "env": {
       "BOT_TOKEN": {
