@@ -146,15 +146,15 @@ async def id_info(c: BAD, m: Message):
     user_id, _, _ = await extract_user(c, m)
     try:
         if user_id and len(m.text.split()) == 2:
-            txt = f"Given user's id: <code>{user_id}</code>"
+            txt = f"❍ Gɪᴠᴇɴ ᴜsᴇʀ's ɪᴅ: <code>{user_id}</code>"
             await m.reply_text(txt, parse_mode=enums.ParseMode.HTML)
             return
         elif m.chat.type in [ChatType.SUPERGROUP, ChatType.GROUP] and not m.reply_to_message:
-            await m.reply_text(text=f"This Group's ID is <code>{m.chat.id}</code>\nYour ID <code>{m.from_user.id}</code>")
+            await m.reply_text(text=f"❍ ᴛʜɪs ɢʀᴏᴜᴘ's ɪᴅ ɪs <code>{m.chat.id}</code>\n❍ ʏᴏᴜʀ ɪᴅ <code>{m.from_user.id}</code>")
             return
 
         elif m.chat.type == ChatType.PRIVATE and not m.reply_to_message:
-            await m.reply_text(text=f"Your ID is <code>{m.chat.id}</code>.")
+            await m.reply_text(text=f"❍ ʏᴏᴜʀ ɪᴅ <code>{m.chat.id}</code>.")
             return
     except Exception as e:
         await m.reply_text(e)
