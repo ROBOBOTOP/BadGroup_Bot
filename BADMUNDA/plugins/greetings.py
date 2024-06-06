@@ -263,7 +263,7 @@ async def member_has_joined(c: BAD, member: ChatMemberUpdated):
             await c.send_animation(
                 chat_id=member.chat.id,
                 animation="./extras/william.gif",
-                caption="😳 My **DEV** has also joined the chat!",
+                caption="**ᴍʏ ᴏᴡɴᴇʀ ɪs ʜᴇʀᴇ** 🌸🙈❤️",
             )
             return
         if banned_users:
