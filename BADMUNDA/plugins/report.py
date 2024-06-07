@@ -65,7 +65,7 @@ async def report_setting(_, m: Message):
         )
 
 
-@BAD.on_message(command("report") & filters.group)
+@BAD.on_message(command("@admin") & filters.group)
 async def report_watcher(c: BAD, m: Message):
 
     if m.chat.type not in [ChatType.SUPERGROUP, ChatType.GROUP]:
