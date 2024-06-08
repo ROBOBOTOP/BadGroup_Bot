@@ -46,8 +46,8 @@ class Config:
     BDB_URI = config("BDB_URI",default=None)
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
-    SUPPORT_GROUP = config("SUPPORT_GROUP", default="THE_DRAMA_CLUB_01")
-    SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="ABT_BAD")
+    SUPPORT_GROUP = config("SUPPORT_GROUP", default="ll_BAD_GROUP_ll")
+    SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="PBX_PERMOT")
     WORKERS = int(config("WORKERS", default=16))
     TIME_ZONE = config("TIME_ZONE",default='Asia/Kolkata')
     BOT_USERNAME = ""
@@ -65,7 +65,7 @@ class Development:
     API_ID = 12345  # Your APP_ID from Telegram
     API_HASH = "YOUR API HASH"  # Your APP_HASH from Telegram
     OWNER_ID = 6898413162  # Your telegram user id defult to mine
-    MESSAGE_DUMP = -1002056907061  # Your Private Group ID for logs
+    MESSAGE_DUMP = -1002093247039  # Your Private Group ID for logs
     DEV_USERS = []
     SUDO_USERS = []
     WHITELIST_USERS = []
