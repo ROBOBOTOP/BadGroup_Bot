@@ -46,12 +46,12 @@
       "BOT_USERNAME": {
         "description": "Your user ID as an integer.",
         "required": false,
-        "value": "@Miss_BrokenX_Bot"
+        "value": "BrokenRobot_Bot"
       },
       "SUPPORT_GROUP": {
         "description": "Your Telegram support group chat username where users can contact in case of a problem..",
         "required": false,
-        "value": "THE_DRAMA_CLUB_01"
+        "value": "ll_BAD_GROUP_ll"
       },
       "MESSAGE_DUMP": {
         "description": "Event logs channel where bot will send updates.",
@@ -71,7 +71,7 @@
       "SUPPORT_CHANNEL": {
         "description": "Channel where bot updates will be posted!",
         "required": false,
-        "value": "HEROKUBIN_01"
+        "value": "PBX_PERMOT"
       },
       "SUDO_USERS": {
         "description": "A space-separated list of user IDs who you want to assign as sudo users.",
