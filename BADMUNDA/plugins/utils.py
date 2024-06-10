@@ -315,7 +315,7 @@ def paste(content: str):
     return BASE + resp['id']
 
 
-@BAD.on_message(command("paste"))
+@BAD.on_message(command("pastee"))
 async def paste_func(_, message: Message):
     r = message.reply_to_message
     m = await message.reply_text("Pasting...")
