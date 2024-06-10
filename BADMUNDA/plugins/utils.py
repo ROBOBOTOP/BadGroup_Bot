@@ -362,38 +362,6 @@ async def paste_func(_, message: Message):
         return await message.reply_text(f"Failed to post. Due to following error:\n{e}")
 
 
-@BAD.on_message(command("tr"))
-async def tr(_, message):
-    trl = Translator()
-    if message.reply_to_message and (
-        message.reply_to_message.text or message.reply_to_message.caption
-    ):
-        if len(message.text.split()) == 1:
-            target_lang = "en"
-        else:
-            target_lang = message.text.split()[1]
-        if message.reply_to_message.text:
-            text = message.reply_to_message.text
-        else:
-            text = message.reply_to_message.caption
-    else:
-        if len(message.text.split()) <= 2:
-            await message.reply_text(
-                "Provide lang code.\n[Available options](https://telegra.ph/Lang-Codes-02-22).\n<b>Usage:</b> <code>/tr en</code>",
-            )
-            return
-        target_lang = message.text.split(None, 2)[1]
-        text = message.text.split(None, 2)[2]
-    detectlang = await trl.detect(text)
-    try:
-        tekstr = await trl(text, targetlang=target_lang)
-    except ValueError as err:
-        await message.reply_text(f"Error: <code>{str(err)}</code>")
-        return
-    return await message.reply_text(
-        f"<b>Translated:</b> from {detectlang} to {target_lang} \n<code>``{tekstr.text}``</code>",
-    )
-
 @BAD.on_message(command("bug"))
 async def reporting_query(c: BAD, m: Message):
     repl = m.reply_to_message
