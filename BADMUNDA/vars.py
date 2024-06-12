@@ -61,23 +61,23 @@ class Development:
 
     # Fill in these vars if you want to use Traditional method of deploying
     LOGGER = True
-    BOT_TOKEN = "YOUR BOT_TOKEN"
-    API_ID = 12345  # Your APP_ID from Telegram
-    API_HASH = "YOUR API HASH"  # Your APP_HASH from Telegram
-    OWNER_ID = 6898413162  # Your telegram user id defult to mine
-    MESSAGE_DUMP = -1002093247039  # Your Private Group ID for logs
+    BOT_TOKEN = 7436017266:AAEDHTYLMCd5EismewzemzKr-PJg5lr42Ks
+    API_ID = 27383453
+    API_HASH = 4c246fb0c649477cc2e79b6a178ddfaa
+    OWNER_ID = 6898413162 
+    MESSAGE_DUMP = -1002093247039
     DEV_USERS = []
     SUDO_USERS = []
     WHITELIST_USERS = []
-    DB_URI = ""  # Your mongo DB URI
-    DB_NAME = ""  # Your DB name
+    DB_URI = mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/
+    DB_NAME = BrokenDB
     NO_LOAD = []
-    GENIUS_API_TOKEN = ""
-    RMBG_API = ""
+    GENIUS_API_TOKEN =h
+    RMBG_API =h
     PREFIX_HANDLER = ["!", "/","$"]
-    SUPPORT_GROUP = "SUPPORT_GROUP"
-    SUPPORT_CHANNEL = "SUPPORT_CHANNEL"
+    SUPPORT_GROUP = ll_BAD_MUNDA_ll
+    SUPPORT_CHANNEL = PBX_PERMOT
     VERSION = "VERSION"
     TIME_ZONE = 'Asia/Kolkata'
-    BDB_URI = ""
+    BDB_URI = mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/
     WORKERS = 8
