@@ -51,8 +51,8 @@ class Development:
     DB_URI ="mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
     DB_NAME ="BrokenDB"
     NO_LOAD = []
-    GENIUS_API_TOKEN =h
-    RMBG_API =h
+    GENIUS_API_TOKEN ="jsjnsms"
+    RMBG_API ="jsnnem"
     PREFIX_HANDLER = ["!", "/","$"]
     SUPPORT_GROUP = ll_BAD_MUNDA_ll
     SUPPORT_CHANNEL = PBX_PERMOT
