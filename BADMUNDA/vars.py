@@ -24,7 +24,7 @@ class Config:
     DB_NAME = config("DB_NAME", default="BAD")
     BDB_URI = config("BDB_URI",default=None)
     NO_LOAD = config("NO_LOAD", default="").split()
-    DEV_USERS = config("DEV_USERS", default="").split()
+    DEV_USERS = config("DEV", default="6352107773").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
     SUPPORT_GROUP = config("SUPPORT_GROUP", default="ll_BAD_GROUP_ll")
     SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="PBX_PERMOT")
