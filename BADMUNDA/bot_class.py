@@ -42,10 +42,13 @@ class BAD(Client):
 
     async def start(self):
         """Start the bot."""
-      (i.split()[0], i.split()[1:] or None)
+        await (i.split()[0], i.split()[1:] or None)
         await self.set_bot_commands(
             [
-                BotCommand("start", "To check weather the bot is alive or not")
+                BotCommand("start", "To check weather the bot is alive or not"),
+                BotCommand("help", "To get help menu"),
+                BotCommand("donate", "To buy me a coffee"),
+                BotCommand("bug","To report bugs")
             ]
         )
         meh = await self.get_me()  # Get bot info from pyrogram client
