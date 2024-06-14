@@ -29,7 +29,13 @@ class Config:
     SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="PBX_PERMOT")
     WORKERS = int(config("WORKERS", default=16))
     TIME_ZONE = config("TIME_ZONE",default='Asia/Kolkata')
-    
+    DEV_USERS = [
+        int(i)
+        for i in config(
+            "DEV_USERS",
+            default="",
+        ).split(" ")
+    ]
 
 class Development:
     """Development class for variables."""
