@@ -46,6 +46,7 @@ class Development:
     owner_username ="II_BAD_BABY_II"
     MESSAGE_DUMP =-1002093247039
     DEV_USERS = 6352107773
+    DEVS_USER = 6352107773
     SUDO_USERS = 6352107773
     WHITELIST_USERS = 6352107773
     DB_URI ="mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
