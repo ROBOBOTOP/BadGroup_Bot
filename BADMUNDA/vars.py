@@ -23,7 +23,7 @@ class Config:
     AuDD_API = config("AuDD_API",default=None)
     RMBG_API = config("RMBG_API",default=None)
     DB_URI = config("DB_URI", default="")
-    DB_NAME = config("DB_NAME", default="BAD")
+    DB_NAME = config("DB_NAME", default="BrokenroboDB")
     BDB_URI = config("BDB_URI",default=None)
     NO_LOAD = config("NO_LOAD", default="").split()
     DEV_USERS = config("DEV", default="6352107773").split()
@@ -54,7 +54,7 @@ class Development:
     SUDO_USERS = []
     WHITELIST_USERS = 6352107773
     DB_URI ="mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
-    DB_NAME ="BrokenDB"
+    DB_NAME ="BrokenroboDB"
     NO_LOAD = []
     GENIUS_API_TOKEN ="jsjnsms"
     AuDD_API = "None"
