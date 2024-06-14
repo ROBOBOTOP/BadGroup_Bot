@@ -31,7 +31,7 @@ class BAD(Client):
     def __init__(self):
         # name = BADMUNDA
 
-        pbx().__init__(
+        super().__init__(
             "BAD",
             bot_token=BOT_TOKEN,
             plugins=dict(root="BADMUNDA.plugins", exclude=NO_LOAD),
@@ -42,15 +42,7 @@ class BAD(Client):
 
     async def start(self):
         """Start the bot."""
-        await pbx().start()
-        await self.set_bot_commands(
-            [
-                BotCommand("start", "To check weather the bot is alive or not"),
-                BotCommand("help", "To get help menu"),
-                BotCommand("donate", "To buy me a coffee"),
-                BotCommand("bug","To report bugs")
-            ]
-        )
+        await super().start()
         meh = await self.get_me()  # Get bot info from pyrogram client
         LOGGER.info("Starting bot...")
         Config.BOT_ID = meh.id
@@ -105,7 +97,7 @@ class BAD(Client):
                 document=LOGFILE,
                 caption=f"Uptime: {runtime}",
             )
-        await pbx().stop()
+        await super().stop()
         MongoDB.close()
         LOGGER.info(
             f"""Bot Stopped.
