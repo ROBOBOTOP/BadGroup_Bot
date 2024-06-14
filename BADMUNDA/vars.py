@@ -49,7 +49,7 @@ class Config:
     SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="PBX_PERMOT")
     WORKERS = int(config("WORKERS", default=16))
     TIME_ZONE = config("TIME_ZONE",default='Asia/Kolkata')
-    BOT_USERNAME =Group_manegment_bad_bot
+    BOT_USERNAME ='Group_manegment_bad_bot"
     BOT_ID ="7394970820"
     BOT_NAME = "hsj"
     owner_username = "II_BAD_BABY_II"
