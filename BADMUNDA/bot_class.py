@@ -42,6 +42,7 @@ class BAD(Client):
 
     async def start(self):
         """Start the bot."""
+      (i.split()[0], i.split()[1:] or None)
         await self.set_bot_commands(
             [
                 BotCommand("start", "To check weather the bot is alive or not")
