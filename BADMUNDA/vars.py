@@ -54,8 +54,8 @@ class Development:
     GENIUS_API_TOKEN ="jsjnsms"
     RMBG_API ="jsnnem"
     PREFIX_HANDLER = ["!", "/","$"]
-    SUPPORT_GROUP = ll_BAD_MUNDA_ll
-    SUPPORT_CHANNEL = PBX_PERMOT
+    SUPPORT_GROUP ="ll_BAD_MUNDA_ll"
+    SUPPORT_CHANNEL ="PBX_PERMOT"
     VERSION = "VERSION"
     TIME_ZONE = 'Asia/Kolkata'
     BDB_URI ="mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
