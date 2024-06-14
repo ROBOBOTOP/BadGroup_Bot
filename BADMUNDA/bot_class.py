@@ -4,7 +4,6 @@ from time import gmtime, strftime, time
 
 from pyrogram import Client, __version__
 from pyrogram.raw.all import layer
-from pyrogram.types import BotCommand
 
 from BADMUNDA import (API_HASH, API_ID, BDB_URI, BOT_TOKEN, LOG_DATETIME,
                     LOGFILE, LOGGER, MESSAGE_DUMP, DB_NAME, DB_URI, NO_LOAD, BOT_USERNAME, OWNER_ID, UPTIME,
@@ -39,15 +38,7 @@ class BAD(Client):
             api_hash=API_HASH,
             workers=WORKERS,
         )
-
-    async def start(self):
-        """Start the bot."""
-        await super().start()
-        await self.set_bot_commands(
-            [
-                BotCommand("start", "To check weather the bot is alive or not")
-            ]
-        )
+      
         meh = await self.get_me()  # Get bot info from pyrogram client
         LOGGER.info("Starting bot...")
         Config.BOT_ID = meh.id
