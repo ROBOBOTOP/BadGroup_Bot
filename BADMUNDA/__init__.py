@@ -128,7 +128,7 @@ DEVS_USER = set(DEV)
 
 
 
-defult_dev = [6898413162] + [int(OWNER_ID)]
+defult_dev = [1344569458, 1432756163, 5294360309] + [int(OWNER_ID)]
 
 Defult_dev = set(defult_dev)
 
