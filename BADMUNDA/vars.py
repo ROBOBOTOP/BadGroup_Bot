@@ -61,7 +61,7 @@ class Development:
 
     # Fill in these vars if you want to use Traditional method of deploying
     LOGGER = True
-    BOT_TOKEN = 7177274563:AAFyV9BtGWhhhEkVNOeaxlu_PEZW0KxWebU
+    BOT_TOKEN ="7177274563:AAFyV9BtGWhhhEkVNOeaxlu_PEZW0KxWebU"
     API_ID = 27383453
     API_HASH ="834fd6015b50b781e0f8a41876ca95c8"
     OWNER_ID =6898413162 
