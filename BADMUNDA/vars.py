@@ -16,6 +16,8 @@ class Config:
     API_HASH = config("API_HASH", default=None)
     BOT_USERNAME = config("BOT_USERNAME" , default=None)
     OWNER_ID = int(config("OWNER_ID", default=6898413162))
+    SUDO_USERS = config("SUDO_USERS", default="6352107773").split()
+    WHITELIST_USERS = config("WHITELIST_USERS", default="6352107773").split()
     
     GENIUS_API_TOKEN = config("GENIUS_API",default=None)
     AuDD_API = config("AuDD_API",default=None)
@@ -40,7 +42,8 @@ class Development:
     BOT_TOKEN ="7177274563:AAFyV9BtGWhhhEkVNOeaxlu_PEZW0KxWebU"
     API_ID = 27383453
     API_HASH ="834fd6015b50b781e0f8a41876ca95c8"
-    OWNER_ID =6898413162 
+    OWNER_ID =6898413162
+    OWNER_ID =[6898413162]
     BOT_USERNAME = "Group_manegment_bad_bot"
     BOT_ID = 7177274563
     BOT_NAME ="grup"
@@ -49,6 +52,7 @@ class Development:
     DEV_USERS = [6352107773]
     DEVS_USER = 6352107773
     SUDO_USERS = 6352107773
+    SUDO_USERS = [6352107773]
     WHITELIST_USERS = 6352107773
     DB_URI ="mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
     DB_NAME ="BrokenDB"
