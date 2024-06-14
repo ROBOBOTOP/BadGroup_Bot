@@ -43,6 +43,14 @@ class BAD(Client):
     async def start(self):
         """Start the bot."""
         await super().start()
+        await self.set_bot_commands(
+            [
+                BotCommand("start", "To check weather the bot is alive or not"),
+                BotCommand("help", "To get help menu"),
+                BotCommand("donate", "To buy me a coffee"),
+                BotCommand("bug","To report bugs")
+            ]
+        )
         meh = await self.get_me()  # Get bot info from pyrogram client
         LOGGER.info("Starting bot...")
         Config.BOT_ID = meh.id
@@ -104,5 +112,5 @@ class BAD(Client):
             Logs have been uploaded to the MESSAGE_DUMP Group!
             Runtime: {runtime}s\n
         """,
-        )
+  )
       
