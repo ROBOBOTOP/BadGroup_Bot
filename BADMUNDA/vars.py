@@ -49,7 +49,6 @@ class Config:
     SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="PBX_PERMOT")
     WORKERS = int(config("WORKERS", default=16))
     TIME_ZONE = config("TIME_ZONE",default='Asia/Kolkata')
-    BOT_USERNAME = config("BOT_USERNAME",default="Group_manegment_bad_bot")
     BOT_ID ="7394970820"
     BOT_NAME = "hsj"
     owner_username = "II_BAD_BABY_II"
@@ -64,6 +63,7 @@ class Development:
     API_ID = 27383453
     API_HASH = "4c246fb0c649477cc2e79b6a178ddfaa"
     OWNER_ID = 6898413162
+    BOT_USERNAME ="Group_manegment_bad_bot"
     MESSAGE_DUMP = -1002093247039  # Your Private Group ID for logs
     DEV_USERS = [6898413162]
     SUDO_USERS = [6898413162]
