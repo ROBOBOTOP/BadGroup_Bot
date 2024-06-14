@@ -53,6 +53,7 @@ class Development:
     SUDO_USERS = 6352107773
     SUDO_USERS = []
     WHITELIST_USERS = 6352107773
+    WHITELIST_USERS = []
     DB_URI ="mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
     DB_NAME ="BrokenroboDB"
     NO_LOAD = []
