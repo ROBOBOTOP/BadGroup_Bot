@@ -68,7 +68,7 @@ class Development:
     DEV_USERS = [6898413162]
     SUDO_USERS = [6898413162]
     WHITELIST_USERS = [6898413162]
-    DB_URI = "mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
+    DB_URI = "mongodb+srv://Badmunda_13:badmunda50@cluster0.9oyzqux.mongodb.net/?retryWrites=true&w=majority"
     DB_NAME = "BrokenDB"
     NO_LOAD = [6898413162]
     GENIUS_API_TOKEN = "JSJSJ"
