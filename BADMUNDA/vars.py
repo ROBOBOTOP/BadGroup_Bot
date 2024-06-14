@@ -16,27 +16,7 @@ class Config:
     API_HASH = config("API_HASH", default=None)
     BOT_USERNAME = config("BOT_USERNAME" , default=None)
     OWNER_ID = int(config("OWNER_ID", default=6898413162))
-    DEV_USERS = [
-        int(i)
-        for i in config(
-            "DEV_USERS",
-            default="",
-        ).split(" ")
-    ]
-    SUDO_USERS = [
-        int(i)
-        for i in config(
-            "SUDO_USERS",
-            default="",
-        ).split(" ")
-    ]
-    WHITELIST_USERS = [
-        int(i)
-        for i in config(
-            "WHITELIST_USERS",
-            default="",
-        ).split(" ")
-    ]
+    
     GENIUS_API_TOKEN = config("GENIUS_API",default=None)
     AuDD_API = config("AuDD_API",default=None)
     RMBG_API = config("RMBG_API",default=None)
