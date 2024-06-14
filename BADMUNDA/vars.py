@@ -39,7 +39,7 @@ class Development:
 
     # Fill in these vars if you want to use Traditional method of deploying
     LOGGER = True
-    BOT_TOKEN ="7177274563:AAFyV9BtGWhhhEkVNOeaxlu_PEZW0KxWebU"
+    BOT_TOKEN ="7436017266:AAEDHTYLMCd5EismewzemzKr-PJg5lr42Ks"
     API_ID = 27383453
     API_HASH ="834fd6015b50b781e0f8a41876ca95c8"
     OWNER_ID =6898413162
@@ -57,9 +57,9 @@ class Development:
     DB_URI ="mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
     DB_NAME ="BrokenroboDB"
     NO_LOAD = []
-    GENIUS_API_TOKEN ="jsjnsms"
+    GENIUS_API_TOKEN ="7B0gU9nXrbZ_YvrO0P-2a4q4wKh8X34BwsmVnE3VG7qFFl53GFZQmz3z7n45N04NZQBb60HoXzFF59lw2ZVHYA"
     AuDD_API = "None"
-    RMBG_API ="jsnnem"
+    RMBG_API ="SFaBtJZgAkDaJxkb141qBZP2"
     PREFIX_HANDLER = ["!", "/","$"]
     SUPPORT_GROUP ="ll_BAD_MUNDA_ll"
     SUPPORT_CHANNEL ="PBX_PERMOT"
