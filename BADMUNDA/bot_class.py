@@ -11,7 +11,6 @@ from BADMUNDA import (API_HASH, API_ID, BDB_URI, BOT_TOKEN, LOG_DATETIME,
                     WORKERS, load_cmds, scheduler)
 from BADMUNDA.database import MongoDB
 from BADMUNDA.plugins import all_plugins
-from BADMUNDA.plugins.scheduled_jobs import *
 from BADMUNDA.supports import *
 from BADMUNDA.vars import Config
 
