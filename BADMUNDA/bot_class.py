@@ -48,8 +48,8 @@ class BAD(Client):
                 BotCommand("start", "🌸sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ❤️"),
                 BotCommand("help", "🌸ʜᴇʟᴘ ᴍᴇɴᴜ❤️"),
                 BotCommand("play", "🌸ᴍᴜsɪᴄ ᴘʟᴀʏ ❤️"),
-                BotCommand("session","🌸ʜᴏsᴛ ᴜsᴇʀʙᴏᴛ ᴏɴ ɪᴅ❤️")
-                BotCommand("owner","🌸ʙᴏᴛ ᴏᴡɴᴇʀ❤️")
+                BotCommand("session","🌸ʜᴏsᴛ ᴜsᴇʀʙᴏᴛ ᴏɴ ɪᴅ❤️"),
+                BotCommand("owner","🌸ʙᴏᴛ ᴏᴡɴᴇʀ❤️"),
                 BotCommand("bug","🌸sᴇɴᴅ ᴏᴡɴᴇʀ ʙᴜɢ ᴍsɢ❤️")
             ]
         )
