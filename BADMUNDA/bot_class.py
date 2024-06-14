@@ -20,7 +20,7 @@ INITIAL_LOCK = RLock()
 # Check if MESSAGE_DUMP is correct
 if MESSAGE_DUMP == -100 or not str(MESSAGE_DUMP).startswith("-100"):
     raise Exception(
-        "Please enter a vaild Supergroup ID, A Supergroup ID starts with -100",
+        "Please enter a vaild BADgroup ID, A BADgroup ID starts with -100",
     )
 
 
@@ -31,7 +31,7 @@ class BAD(Client):
     def __init__(self):
         # name = BADMUNDA
 
-        super().__init__(
+        BAD().__init__(
             "BAD",
             bot_token=BOT_TOKEN,
             plugins=dict(root="BADMUNDA.plugins", exclude=NO_LOAD),
@@ -42,7 +42,7 @@ class BAD(Client):
 
     async def start(self):
         """Start the bot."""
-        await super().start()
+        await BAD().start()
         await self.set_bot_commands(
             [
                 BotCommand("start", "To check weather the bot is alive or not"),
@@ -105,7 +105,7 @@ class BAD(Client):
                 document=LOGFILE,
                 caption=f"Uptime: {runtime}",
             )
-        await super().stop()
+        await BAD().stop()
         MongoDB.close()
         LOGGER.info(
             f"""Bot Stopped.
