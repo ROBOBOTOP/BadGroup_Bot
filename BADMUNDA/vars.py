@@ -41,7 +41,7 @@ class Development:
     LOGGER = True
     BOT_TOKEN ="7436017266:AAEDHTYLMCd5EismewzemzKr-PJg5lr42Ks"
     API_ID = 27383453
-    API_HASH ="834fd6015b50b781e0f8a41876ca95c8"
+    API_HASH ="4c246fb0c649477cc2e79b6a178ddfaa"
     OWNER_ID =6898413162
     BOT_USERNAME = "Group_manegment_bad_bot"
     BOT_ID = 7177274563
