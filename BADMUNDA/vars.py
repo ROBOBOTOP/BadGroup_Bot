@@ -24,18 +24,13 @@ class Config:
     DB_NAME = config("DB_NAME", default="BAD")
     BDB_URI = config("BDB_URI",default=None)
     NO_LOAD = config("NO_LOAD", default="").split()
+    DEV_USERS = config("DEV_USERS", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
     SUPPORT_GROUP = config("SUPPORT_GROUP", default="ll_BAD_GROUP_ll")
     SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="PBX_PERMOT")
     WORKERS = int(config("WORKERS", default=16))
     TIME_ZONE = config("TIME_ZONE",default='Asia/Kolkata')
-    DEV_USERS = [
-        int(i)
-        for i in config(
-            "DEV_USERS",
-            default="",
-        ).split(" ")
-    ]
+
 
 class Development:
     """Development class for variables."""
