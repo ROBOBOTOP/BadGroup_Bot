@@ -39,16 +39,15 @@ class BAD(Client):
             api_hash=API_HASH,
             workers=WORKERS,
         )
-        async def start(self):
+
+    async def start(self):
         """Start the bot."""
         await super().start()
         await self.set_bot_commands(
             [
-                BotCommand("start", "To check weather the bot is alive or not"),
-              
+                BotCommand("start", "To check weather the bot is alive or not")
             ]
         )
-
         meh = await self.get_me()  # Get bot info from pyrogram client
         LOGGER.info("Starting bot...")
         Config.BOT_ID = meh.id
@@ -111,3 +110,4 @@ class BAD(Client):
             Runtime: {runtime}s\n
         """,
         )
+      
