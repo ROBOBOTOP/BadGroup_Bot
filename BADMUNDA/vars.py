@@ -52,6 +52,7 @@ class Development:
     DB_NAME ="BrokenDB"
     NO_LOAD = []
     GENIUS_API_TOKEN ="jsjnsms"
+    AuDD_API = "None"
     RMBG_API ="jsnnem"
     PREFIX_HANDLER = ["!", "/","$"]
     SUPPORT_GROUP ="ll_BAD_MUNDA_ll"
