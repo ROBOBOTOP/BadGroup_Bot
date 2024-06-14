@@ -80,4 +80,4 @@ class Development:
     VERSION = "VERSION"
     TIME_ZONE = 'Asia/Kolkata'
     BDB_URI = "mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
-    WORKERS = 7
+    WORKERS = 8
