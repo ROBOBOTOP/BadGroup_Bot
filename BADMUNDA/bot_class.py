@@ -40,7 +40,7 @@ class BAD(Client):
             workers=WORKERS,
         )
         async def start(self):
-        ""Start the bot.""
+        """Start the bot."""
         await super().start()
         await self.set_bot_commands(
             [
