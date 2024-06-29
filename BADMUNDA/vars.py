@@ -54,7 +54,7 @@ class Development:
     SUDO_USERS = []
     WHITELIST_USERS = 6898413162
     WHITELIST_USERS = []
-    DB_URI ="mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
+    DB_URI ="mongodb+srv://Badmunda_13:badmunda50@cluster0.9oyzqux.mongodb.net/?retryWrites=true&w=majority"
     DB_NAME ="BrokenroboDB"
     NO_LOAD = []
     GENIUS_API_TOKEN ="7B0gU9nXrbZ_YvrO0P-2a4q4wKh8X34BwsmVnE3VG7qFFl53GFZQmz3z7n45N04NZQBb60HoXzFF59lw2ZVHYA"
